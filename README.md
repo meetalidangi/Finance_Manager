@@ -1,73 +1,84 @@
-# Welcome to your Lovable project
+# Finance Management System
+## Overview
 
-## Project info
+The Finance Management System is a modern web-based platform designed to help users efficiently manage their financial activities.
+It provides a seamless interface for tracking income, expenses, and budgets while offering visual insights into financial performance.
+The system aims to promote better financial awareness and assist individuals or small businesses in making data-driven decisions.
 
-**URL**: https://lovable.dev/projects/22234aea-c204-4268-bf37-a438b8c8b437
+## Key Features
+## Dashboard
 
-## How can I edit this code?
+- Displays total income, expenses, and remaining balance.
 
-There are several ways of editing your application.
+- Provides a quick overview of financial health through charts and statistics.
 
-**Use Lovable**
+- Transaction Management
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/22234aea-c204-4268-bf37-a438b8c8b437) and start prompting.
+- Add, update, and delete financial transactions.
 
-Changes made via Lovable will be committed automatically to this repo.
+- Categorize records as income or expense.
 
-**Use your preferred IDE**
+- Filter and sort transactions by date or category.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Data Visualization
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Graphical representation of income and expenditure patterns.
 
-Follow these steps:
+- Category-based insights using interactive charts.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- User authentication and secure data storage.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Technology Stack
+- Layer	Technology
+- Frontend	React, TypeScript, Vite
+- Styling	Tailwind CSS, shadcn/ui
+- State Management	React Hooks, Context API
+- Deployment	Vercel / Netlify / Custom Domain
+- Installation Guide
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Follow the steps below to run the project locally:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+#Step 1: Clone the repository
+git clone <YOUR_REPO_URL>
+
+#Step 2: Navigate to the project folder
+cd finance-management-system
+
+#Step 3: Install dependencies
+npm install
+
+#Step 4: Start the development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Once the server starts, open http://localhost:5173
+ in your browser to access the application.
 
-**Use GitHub Codespaces**
+## Deployment
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+You can deploy this application on platforms such as Vercel, Netlify, or Render.
 
-## What technologies are used for this project?
+Steps:
 
-This project is built with:
+1. Push the repository to GitHub.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+2. Connect the repository to your hosting platform.
 
-## How can I deploy this project?
+3. Configure the build command as npm run build and the output directory as dist.
 
-Simply open [Lovable](https://lovable.dev/projects/22234aea-c204-4268-bf37-a438b8c8b437) and click on Share -> Publish.
+4. Deploy and verify the hosted URL.
 
-## Can I connect a custom domain to my Lovable project?
+5. Custom Domain
 
-Yes, you can!
+To connect a custom domain, use your hosting provider’s domain configuration options and update the DNS settings to point to your deployed application.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Contributions and Feedback
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Suggestions and contributions are welcome.
+If you encounter issues or have improvement ideas, please open an issue or submit a pull request.
+
+## Author
+
+Developer: Meetali Dangi
+Domain: Financial Data Management and Visualization
+Version: 1.0.0
